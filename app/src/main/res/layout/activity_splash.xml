@@ -11,7 +11,7 @@
         android:background="@color/layout_bg"
         android:scaleType="centerCrop" />
 
-    <com.james.motion.ui.weight.CountDownProgressView
+    <com.ironsublimate.RouteRecorder.ui.weight.CountDownProgressView
         android:id="@+id/countdownProgressView"
         android:layout_width="40dp"
         android:layout_height="40dp"

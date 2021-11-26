@@ -2,7 +2,9 @@ apply plugin: 'com.android.application'
 apply plugin: 'realm-android'
 
 android {
-
+    buildFeatures{
+        dataBinding true
+    }
     compileSdkVersion rootProject.ext.android.compileSdkVersion
     buildToolsVersion rootProject.ext.android.buildToolsVersion
 
@@ -22,11 +24,11 @@ android {
         // dex突破65535的限制
         multiDexEnabled true
 
-        ndk {
-            //设置支持的SO库架构（开发者可以根据需要，选择一个或多个平台的so）
-            abiFilters 'armeabi', 'armeabi-v7a', 'x86'
-            // 还可以添加 , 'x86_64', 'mips', 'mips64', 'arm64-v8a', "arm64-v8a"
-        }
+//        ndk {
+//            //设置支持的SO库架构（开发者可以根据需要，选择一个或多个平台的so）
+//            abiFilters 'x86', 'x86_64', 'armeabi-v7a', 'arm64-v8a'
+//            // 还可以添加 , 'x86_64', 'mips', 'mips64', 'arm64-v8a', "arm64-v8a"
+//        }
 
     }
     buildTypes {
@@ -48,9 +50,11 @@ android {
 
     sourceSets {
         main {
-            jniLibs.srcDirs = ['libs']
+//            jniLibs.srcDirs = ['libs']
         }
     }
+//    ndkVersion "23.0.7599858"
+
 }
 
 dependencies {

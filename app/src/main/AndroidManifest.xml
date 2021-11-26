@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.james.motion"
+    package="com.ironsublimate.RouteRecorder"
     tools:ignore="ProtectedPermissions">
 
     <!--允许程序打开网络套接字-->
@@ -42,7 +42,7 @@
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
 
     <application
-        android:name=".MyApplication"
+        android:name="com.ironsublimate.RouteRecorder.MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/app_icon"
         android:label="@string/app_name"
@@ -69,7 +69,7 @@
             android:value="portrait|landscape" />
 
         <activity
-            android:name=".ui.activity.SplashActivity"
+            android:name="com.ironsublimate.RouteRecorder.ui.activity.SplashActivity"
             android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation|keyboardHidden"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
@@ -83,44 +83,44 @@
         </activity>
         <!--承载界面-->
         <activity
-            android:name=".ui.activity.HomeActivity"
+            android:name="com.ironsublimate.RouteRecorder.ui.activity.HomeActivity"
             android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation|keyboardHidden"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan|stateHidden" />
         <!--登录-->
         <activity
-            android:name=".ui.activity.LoginActivity"
+            android:name="com.ironsublimate.RouteRecorder.ui.activity.LoginActivity"
             android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation|keyboardHidden"
             android:launchMode="singleTask"
             android:windowSoftInputMode="stateHidden|adjustResize" />
         <!--注册-->
         <activity
-            android:name=".ui.activity.RegistActivity"
+            android:name="com.ironsublimate.RouteRecorder.ui.activity.RegistActivity"
             android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation|keyboardHidden"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustResize" />
         <!--运动-->
         <activity
-            android:name=".ui.activity.SportsActivity"
+            android:name="com.ironsublimate.RouteRecorder.ui.activity.SportsActivity"
             android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation|keyboardHidden"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustResize" />
         <!--运动轨迹-->
         <activity
-            android:name=".ui.activity.SportMapActivity"
+            android:name="com.ironsublimate.RouteRecorder.ui.activity.SportMapActivity"
             android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation|keyboardHidden"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustResize" />
         <!--运动结果-->
         <activity
-            android:name=".ui.activity.SportResultActivity"
+            android:name="com.ironsublimate.RouteRecorder.ui.activity.SportResultActivity"
             android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation|keyboardHidden"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustResize" />
         <!--运动记录详情-->
         <activity
-            android:name=".ui.activity.SportRecordDetailsActivity"
+            android:name="com.ironsublimate.RouteRecorder.ui.activity.SportRecordDetailsActivity"
             android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation|keyboardHidden"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustResize" />
@@ -130,11 +130,11 @@
         <!--开发者申请的key-->
         <meta-data
             android:name="com.amap.api.v2.apikey"
-            android:value="7b175196c075543e296831feeeb1eacc" />
+            android:value="4622734a515429ae0a704817fe16c691" />
 
         <!--计步定位服务-->
         <service
-            android:name=".sport_motion.LocationService"
+            android:name="com.ironsublimate.RouteRecorder.sport_motion.LocationService"
             android:enabled="true"
             android:exported="false">
             <!--exported属性，指示该服务是否能够被其他应用程序组件调用或跟它交互-->

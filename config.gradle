@@ -3,7 +3,7 @@ ext {
     android = [
             compileSdkVersion: 29,
             buildToolsVersion: "29.0.2",
-            applicationId    : "com.james.motion",
+            applicationId    : "com.ironsublimate.RouteRecorder",
             minSdkVersion    : 19,
             targetSdkVersion : 29,
             versionCode      : 1,

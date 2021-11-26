@@ -21,7 +21,7 @@
         tl:tl_textUnselectColor="@color/text_color_2"
         tl:tl_textsize="@dimen/textsize_5" />
 
-    <com.james.motion.ui.weight.AMapScrollViewPager
+    <com.ironsublimate.RouteRecorder.ui.weight.AMapScrollViewPager
         android:id="@+id/vp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

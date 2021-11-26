@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Motion</string>
+    <string name="app_name">RouteRecorder</string>
 
     <string name="splash_appversionname">Android V%1$s</string>
 
