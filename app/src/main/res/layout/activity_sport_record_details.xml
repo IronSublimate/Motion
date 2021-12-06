@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tl="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:theme="@style/ActionBarFullScreen">
+
+    <include layout="@layout/layout_title" />
+
+    <com.flyco.tablayout.CommonTabLayout
+        android:id="@+id/commonTabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        tl:tl_iconVisible="false"
+        tl:tl_indicator_color="@color/white"
+        tl:tl_indicator_width="70dp"
+        tl:tl_textBold="SELECT"
+        tl:tl_textSelectColor="@color/black"
+        tl:tl_textUnselectColor="@color/black"
+        tl:tl_textsize="@dimen/textsize_5" />
+
+    <com.example.rt1.ui.weight.AMapScrollViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never" />
+</LinearLayout>

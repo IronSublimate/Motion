@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BuildAttributionWarningsFilter">
+    <option name="noGCSettingWarning" value="true" />
+  </component>
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/RT1/app/src/main/res/drawable-v24/btn_black_bg.xml" value="0.1" />
+        <entry key="..\:/RT1/app/src/main/res/drawable-v24/et_coner_white_bg.xml" value="0.17234367056431113" />
+        <entry key="..\:/RT1/app/src/main/res/drawable/bg_edittext.xml" value="0.19115404168784952" />
+        <entry key="..\:/RT1/app/src/main/res/drawable/btn_nor_bg.xml" value="0.1" />
+        <entry key="..\:/RT1/app/src/main/res/drawable/btn_start_run.xml" value="0.14351851851851852" />
+        <entry key="..\:/RT1/app/src/main/res/drawable/white_round.xml" value="0.1" />
+        <entry key="..\:/RT1/app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="..\:/RT1/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/RT1/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/RT1/app/src/main/res/layout/activity_record.xml" value="0.264" />
+        <entry key="..\:/RT1/app/src/main/res/layout/activity_running.xml" value="0.136" />
+        <entry key="..\:/RT1/app/src/main/res/layout/activity_signin.xml" value="0.172" />
+        <entry key="..\:/RT1/app/src/main/res/layout/activity_sport_record_details.xml" value="0.2" />
+        <entry key="..\:/RT1/app/src/main/res/layout/activity_sport_result.xml" value="0.264" />
+        <entry key="..\:/RT1/app/src/main/res/layout/activity_start.xml" value="0.19427083333333334" />
+        <entry key="..\:/RT1/app/src/main/res/layout/activity_welcome.xml" value="0.19427083333333334" />
+        <entry key="..\:/RT1/app/src/main/res/layout/adapter_sport.xml" value="0.536" />
+        <entry key="..\:/RT1/app/src/main/res/layout/custom_progress_dialog_layout.xml" value="0.13958333333333334" />
+        <entry key="..\:/RT1/app/src/main/res/layout/fragment_active.xml" value="0.19427083333333334" />
+        <entry key="..\:/RT1/app/src/main/res/layout/fragment_dashboard.xml" value="0.19427083333333334" />
+        <entry key="..\:/RT1/app/src/main/res/layout/fragment_fastlogin.xml" value="0.47390396659707723" />
+        <entry key="..\:/RT1/app/src/main/res/layout/fragment_friend.xml" value="0.264" />
+        <entry key="..\:/RT1/app/src/main/res/layout/fragment_home.xml" value="0.19427083333333334" />
+        <entry key="..\:/RT1/app/src/main/res/layout/fragment_myself.xml" value="0.176" />
+        <entry key="..\:/RT1/app/src/main/res/layout/fragment_psdlogin.xml" value="0.2567849686847599" />
+        <entry key="..\:/RT1/app/src/main/res/layout/fragment_run.xml" value="0.1317365269461078" />
+        <entry key="..\:/RT1/app/src/main/res/layout/fragment_sportrecorddetails.xml" value="0.29743589743589743" />
+        <entry key="..\:/RT1/app/src/main/res/layout/fragment_sportrecorddetailsmap.xml" value="0.6685393258426966" />
+        <entry key="..\:/RT1/app/src/main/res/layout/fragment_sportrecorddetailsspeed.xml" value="0.1" />
+        <entry key="..\:/RT1/app/src/main/res/layout/layout_title.xml" value="0.2222222222222222" />
+        <entry key="..\:/RT1/app/src/main/res/layout/tip_dialog_layout.xml" value="0.152" />
+        <entry key="..\:/RT1/app/src/main/res/layout/title_bar.xml" value="0.16979166666666667" />
+        <entry key="..\:/RT1/app/src/main/res/menu/bottom_nav_menu.xml" value="0.19427083333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
