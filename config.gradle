@@ -1,19 +1,19 @@
 ext {
     //android开发版本配置
     android = [
-            compileSdkVersion: 29,
-            buildToolsVersion: "29.0.2",
-            applicationId    : "com.ironsublimate.RouteRecorder",
-            minSdkVersion    : 19,
-            targetSdkVersion : 29,
+            compileSdkVersion: 30,
+            buildToolsVersion: "31.0.0",
+            applicationId    : "com.example.RT1",
+            minSdkVersion    : 21,
+            targetSdkVersion : 30,
             versionCode      : 1,
             versionName      : "1.0",
             java_version     : JavaVersion.VERSION_1_8,
     ]
     //version配置
     versions = [
-            "appcompat-version"         : "1.1.0",
-            "annotation-version"        : "1.1.0",
+            "appcompat-version"         : "1.3.1",
+            "annotation-version"        : "1.2.0",
             "recyclerview-version"      : "1.1.0-beta04",
             "swiperefreshlayout-version": "1.0.0",
             "cardview-version"          : "1.0.0",

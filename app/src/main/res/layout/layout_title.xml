@@ -3,23 +3,22 @@
     android:id="@+id/header"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/basecolor"
+    android:background="@color/black"
     android:orientation="vertical">
 
     <View
         android:layout_width="match_parent"
         android:layout_height="@dimen/spacing_normal"
-        android:background="@color/basecolor" />
+        android:background="@color/black" />
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/title_height">
+        android:layout_height="55dp">
 
         <RelativeLayout
             android:id="@+id/re_back"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:background="@drawable/back_selector"
             android:onClick="back">
 
             <ImageView
@@ -40,7 +39,7 @@
             android:lines="1"
             android:maxLength="12"
             android:text=""
-            android:textColor="@color/text_color_white"
+            android:textColor="@color/white"
             android:textSize="@dimen/title" />
 
     </RelativeLayout>

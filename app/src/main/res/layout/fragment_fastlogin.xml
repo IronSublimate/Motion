@@ -2,7 +2,8 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="180dp"
-    android:fillViewport="true">
+    android:fillViewport="true"
+    android:background="@color/white">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,7 +22,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
-                android:src="@mipmap/icon_user" />
+                android:src="@mipmap/wode" />
 
             <EditText
                 android:id="@+id/et_phone"
@@ -35,8 +36,8 @@
                 android:inputType="phone"
                 android:lines="1"
                 android:maxLength="11"
-                android:textColor="@color/text_color_2"
-                android:textColorHint="@color/text_color_3"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
                 android:textSize="@dimen/textsize_4" />
 
             <ImageButton
@@ -45,8 +46,7 @@
                 android:layout_height="match_parent"
                 android:layout_alignParentEnd="true"
                 android:layout_centerVertical="true"
-                android:background="@color/transparency"
-                android:src="@mipmap/icon_et_del"
+                android:src="@mipmap/close"
                 android:visibility="gone" />
         </RelativeLayout>
 
@@ -63,7 +63,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
-                android:src="@mipmap/icon_code" />
+                android:src="@mipmap/complete" />
 
             <EditText
                 android:id="@+id/et_code"
@@ -76,11 +76,12 @@
                 android:gravity="center_vertical"
                 android:hint="请输入验证码"
                 android:maxLength="8"
-                android:textColor="@color/text_color_2"
-                android:textColorHint="@color/text_color_3"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
                 android:textSize="@dimen/textsize_4" />
 
             <Chronometer
+                android:background="@color/black"
                 android:id="@+id/chronometer"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -89,7 +90,7 @@
                 android:paddingStart="@dimen/item_edge"
                 android:paddingEnd="@dimen/margin_edge"
                 android:text="获取验证码"
-                android:textColor="@color/text_color_2"
+                android:textColor="@color/white"
                 android:textSize="@dimen/textsize_4" />
         </RelativeLayout>
 

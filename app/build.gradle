@@ -2,9 +2,11 @@ apply plugin: 'com.android.application'
 apply plugin: 'realm-android'
 
 android {
-    buildFeatures{
-        dataBinding true
+
+    buildFeatures {
+        viewBinding true
     }
+
     compileSdkVersion rootProject.ext.android.compileSdkVersion
     buildToolsVersion rootProject.ext.android.buildToolsVersion
 
@@ -13,22 +15,25 @@ android {
         targetCompatibility rootProject.ext.android.java_version
     }
 
+
     defaultConfig {
         applicationId rootProject.ext.android.applicationId
         minSdkVersion rootProject.ext.android.minSdkVersion
         targetSdkVersion rootProject.ext.android.targetSdkVersion
         versionCode rootProject.ext.android.versionCode
         versionName rootProject.ext.android.versionName
+
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
 
         // dex突破65535的限制
         multiDexEnabled true
 
-//        ndk {
-//            //设置支持的SO库架构（开发者可以根据需要，选择一个或多个平台的so）
-//            abiFilters 'x86', 'x86_64', 'armeabi-v7a', 'arm64-v8a'
-//            // 还可以添加 , 'x86_64', 'mips', 'mips64', 'arm64-v8a', "arm64-v8a"
-//        }
+        ndk {
+            //设置支持的SO库架构（开发者可以根据需要，选择一个或多个平台的so）
+            abiFilters 'armeabi', 'armeabi-v7a', 'x86'
+            // 还可以添加 , 'x86_64', 'mips', 'mips64', 'arm64-v8a', "arm64-v8a"
+        }
 
     }
     buildTypes {
@@ -50,20 +55,26 @@ android {
 
     sourceSets {
         main {
-//            jniLibs.srcDirs = ['libs']
+            jniLibs.srcDirs = ['libs']
         }
     }
-//    ndkVersion "23.0.7599858"
-
 }
 
 dependencies {
+
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation rootProject.ext.support["appcompat"]
     implementation rootProject.ext.support["design"]
     implementation rootProject.ext.support["recyclerview"]
     implementation rootProject.ext.support["cardview"]
     implementation rootProject.ext.support["layout"]
+    implementation 'androidx.navigation:navigation-common:2.3.5'
+    implementation 'androidx.navigation:navigation-ui:2.3.5'
+    implementation 'androidx.navigation:navigation-fragment:2.3.5'
+    implementation 'androidx.core:core:1.3.2'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'androidx.annotation:annotation:1.3.0-alpha01'
+    //implementation 'androidx.databinding:compiler:3.2.0-alpha11'
     testImplementation rootProject.ext.support["testImplementation"]
     androidTestImplementation rootProject.ext.support["androidtestimplementation_ext"]
     androidTestImplementation rootProject.ext.support["androidtestimplementation_espresso"]

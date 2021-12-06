@@ -2,8 +2,9 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/layout_bg"
-    android:padding="@dimen/margin_edge_20">
+    android:background="@color/white"
+    android:padding="@dimen/margin_edge_20"
+    android:theme="@style/ActionBarFullScreen">
 
     <TextView
         android:layout_width="wrap_content"
@@ -11,7 +12,7 @@
         android:layout_alignParentStart="true"
         android:layout_gravity="center_vertical"
         android:text="平均配速(分钟/公里)"
-        android:textColor="@color/text_color_2"
+        android:textColor="@color/black"
         android:textSize="@dimen/textsize_3" />
 
     <TextView
@@ -21,6 +22,6 @@
         android:layout_alignParentEnd="true"
         android:layout_gravity="center_vertical"
         android:text="0.00"
-        android:textColor="@color/text_color_2"
+        android:textColor="@color/black"
         android:textSize="@dimen/textsize_4" />
 </RelativeLayout>

@@ -1,6 +1,14 @@
 <resources>
-    <string name="app_name">RouteRecorder</string>
-
+    <string name="app_name">RT!</string>
+    <string name="title_run">跑步</string>
+    <string name="title_friend">好友</string>
+    <string name="title_active">动态</string>
+    <string name="title_myself">我的</string>
+    <string name="start_run">开始跑步</string>
+    <string name="invite">邀请好友</string>
+    <string name="record">运动记录</string>
+    <string name="information">个人信息</string>
+    <string name="title_activity_main">MainActivity</string>
     <string name="splash_appversionname">Android V%1$s</string>
 
     <string name="psd_digits">0123456789qwertyuiopasdfghjklzxcvbnmZXCVBNMLKJHGFDSAQWERTYUIOP</string>
@@ -10,6 +18,12 @@
     <string name="date_month_day">%1$s月%2$s日</string>
     <string name="date_year_month_day">%1$s-%2$s-%3$s</string>
     <string name="time_hour_minuts">%1$s:%2$s</string>
+    <string name="map_mode">地图模式</string>
+    <string name="zanting">暂停</string>
+    <string name="wancheng">完成</string>
+    <string name="qidong">继续</string>
+    <string name="share_result">分享</string>
+    <string name="back_home">返回</string>
 
     <string-array name="chinese_week_string_array">
         <item>周日</item>
